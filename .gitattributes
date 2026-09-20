@@ -1,0 +1,7 @@
+*.pt binary
+*.pth binary
+*.pt.part* binary
+*.npy binary
+*.zip binary
+*.png binary
+eval_release/model/*.pt filter=lfs diff=lfs merge=lfs -text
