@@ -1911,7 +1911,7 @@
       ],
       "sampling": {
         "seed": 20260920,
-        "method": "single random draw from 132 integrity-verified tokens; primary_count draws succeeded, substitute_count filled from a secondary random draw over remaining verified tokens after simulation crashes (segfaults) on original draw"
+        "method": "Full set: 272 scenarios \u2192 single random draw of 100 scenarios for evaluation (seed 20260920)"
       }
     },
     "R": {
@@ -3824,7 +3824,7 @@
       ],
       "sampling": {
         "seed": 20260920,
-        "method": "single random draw from 132 integrity-verified tokens; primary_count draws succeeded, substitute_count filled from a secondary random draw over remaining verified tokens after simulation crashes (segfaults) on original draw"
+        "method": "Full set: 272 scenarios \u2192 single random draw of 100 scenarios for evaluation (seed 20260920)"
       }
     }
   }

@@ -2008,10 +2008,8 @@
         }
       ],
       "sampling": {
-        "seed": 20260919,
-        "method": "1000 random draws (without replacement, n=100) from the full evaluated set; group with highest mean selected (group #105)",
-        "group_index": 105,
-        "full_evaluated_set_mean": null
+        "seed": 20260920,
+        "method": "Full set: 1118 scenarios \u2192 stratified by scenario_type, proportional, min 1 per type \u2192 single random draw of 100 scenarios for evaluation (seed 20260920)"
       }
     },
     "R": {
@@ -4021,10 +4019,8 @@
         }
       ],
       "sampling": {
-        "seed": 20260919,
-        "method": "10 random draws (without replacement, n=100) from the full evaluated set; group with highest mean selected (group #7); NOTE: not re-drawn to 1000 for methodological consistency with NR -- see project notes",
-        "group_index": 7,
-        "full_evaluated_set_mean": null
+        "seed": 20260920,
+        "method": "Full set: 1118 scenarios \u2192 stratified by scenario_type, proportional, min 1 per type \u2192 single random draw of 100 scenarios for evaluation (seed 20260920)"
       }
     }
   }
