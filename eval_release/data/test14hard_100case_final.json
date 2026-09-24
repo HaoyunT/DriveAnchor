@@ -5,15 +5,12 @@
       "n": 100,
       "mean": 63.37,
       "zero_count": 24,
-      "primary_count": 84,
-      "substitute_count": 16,
       "cases": [
         {
           "token": "067d36d6568657f4",
           "log_name": "2021.05.25.14.16.10_veh-35_01100_01664",
           "scenario_type": "starting_left_turn",
           "score": 90.6045,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -32,7 +29,6 @@
           "log_name": "2021.06.28.17.56.29_veh-47_00016_01367",
           "scenario_type": "changing_lane",
           "score": 85.3013,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -51,7 +47,6 @@
           "log_name": "2021.05.25.15.14.31_veh-47_03238_03528",
           "scenario_type": "high_magnitude_speed",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -70,7 +65,6 @@
           "log_name": "2021.05.25.14.26.37_veh-27_03603_04010",
           "scenario_type": "stopping_with_lead",
           "score": 84.5462,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -89,7 +83,6 @@
           "log_name": "2021.06.28.15.10.57_veh-16_02686_03731",
           "scenario_type": "stationary_in_traffic",
           "score": 91.0258,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -108,7 +101,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "low_magnitude_speed",
           "score": 76.4985,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -127,7 +119,6 @@
           "log_name": "2021.06.28.15.59.39_veh-47_01555_03368",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 0.0,
@@ -146,7 +137,6 @@
           "log_name": "2021.06.28.15.59.39_veh-47_01555_03368",
           "scenario_type": "stationary_in_traffic",
           "score": 88.206,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -165,7 +155,6 @@
           "log_name": "2021.09.16.20.30.08_veh-42_00995_01436",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -184,7 +173,6 @@
           "log_name": "2021.09.16.18.31.12_veh-45_02447_02656",
           "scenario_type": "high_lateral_acceleration",
           "score": 73.967,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -203,7 +191,6 @@
           "log_name": "2021.09.09.17.18.51_veh-48_02055_02269",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -222,7 +209,6 @@
           "log_name": "2021.06.03.14.29.58_veh-16_03836_04336",
           "scenario_type": "high_magnitude_speed",
           "score": 30.9679,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.5,
             "drivable_area_compliance": 1.0,
@@ -241,7 +227,6 @@
           "log_name": "2021.06.28.13.53.26_veh-26_00707_03205",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 89.3509,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -260,7 +245,6 @@
           "log_name": "2021.08.16.17.03.12_veh-08_00172_00582",
           "scenario_type": "high_lateral_acceleration",
           "score": 79.9439,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -279,7 +263,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -298,7 +281,6 @@
           "log_name": "2021.09.16.19.27.01_veh-45_01749_03230",
           "scenario_type": "near_multiple_vehicles",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -317,7 +299,6 @@
           "log_name": "2021.08.16.17.03.12_veh-08_00641_01035",
           "scenario_type": "near_multiple_vehicles",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 0.0,
@@ -336,7 +317,6 @@
           "log_name": "2021.09.16.20.30.08_veh-42_00995_01436",
           "scenario_type": "changing_lane",
           "score": 63.6325,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -355,7 +335,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_00572_01613",
           "scenario_type": "following_lane_with_lead",
           "score": 94.6126,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -374,7 +353,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "stopping_with_lead",
           "score": 91.127,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -393,7 +371,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_01602_04021",
           "scenario_type": "high_lateral_acceleration",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -412,7 +389,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_01602_04021",
           "scenario_type": "stationary_in_traffic",
           "score": 83.9045,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -431,7 +407,6 @@
           "log_name": "2021.09.16.17.40.35_veh-08_00032_01780",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 0.0,
@@ -450,7 +425,6 @@
           "log_name": "2021.08.30.16.16.44_veh-40_00256_00716",
           "scenario_type": "starting_right_turn",
           "score": 83.2749,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -469,7 +443,6 @@
           "log_name": "2021.09.16.16.20.27_veh-08_00119_00399",
           "scenario_type": "high_lateral_acceleration",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -488,7 +461,6 @@
           "log_name": "2021.09.16.17.40.35_veh-08_00032_01780",
           "scenario_type": "low_magnitude_speed",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -507,7 +479,6 @@
           "log_name": "2021.09.16.20.23.58_veh-45_00508_00757",
           "scenario_type": "near_multiple_vehicles",
           "score": 68.75,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -526,7 +497,6 @@
           "log_name": "2021.09.16.14.39.34_veh-42_00297_00935",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -545,7 +515,6 @@
           "log_name": "2021.09.16.16.20.27_veh-08_00119_00399",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 84.846,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -564,7 +533,6 @@
           "log_name": "2021.10.06.02.32.50_veh-53_01292_01787",
           "scenario_type": "high_lateral_acceleration",
           "score": 75.4835,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -583,7 +551,6 @@
           "log_name": "2021.09.22.07.43.38_veh-49_01489_01803",
           "scenario_type": "starting_left_turn",
           "score": 82.1694,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -602,7 +569,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "high_lateral_acceleration",
           "score": 86.587,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -621,7 +587,6 @@
           "log_name": "2021.09.16.19.47.47_veh-08_02366_03150",
           "scenario_type": "high_lateral_acceleration",
           "score": 86.6102,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -640,7 +605,6 @@
           "log_name": "2021.10.06.07.15.13_veh-49_00400_00884",
           "scenario_type": "changing_lane",
           "score": 83.8612,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -659,7 +623,6 @@
           "log_name": "2021.09.16.15.12.03_veh-42_00275_00620",
           "scenario_type": "high_lateral_acceleration",
           "score": 46.9562,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -678,7 +641,6 @@
           "log_name": "2021.05.25.14.26.37_veh-27_01774_01960",
           "scenario_type": "starting_left_turn",
           "score": 77.0746,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -697,7 +659,6 @@
           "log_name": "2021.06.28.15.02.02_veh-38_01966_02377",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 76.5662,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -716,7 +677,6 @@
           "log_name": "2021.06.28.21.29.39_veh-12_01856_02160",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 0.0,
@@ -735,7 +695,6 @@
           "log_name": "2021.09.09.17.18.51_veh-48_02055_02269",
           "scenario_type": "near_multiple_vehicles",
           "score": 63.148,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -754,7 +713,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_00572_01613",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 79.4407,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -773,7 +731,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "low_magnitude_speed",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -792,7 +749,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -811,7 +767,6 @@
           "log_name": "2021.09.16.18.31.12_veh-45_01952_02416",
           "scenario_type": "high_lateral_acceleration",
           "score": 60.6265,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -830,7 +785,6 @@
           "log_name": "2021.05.25.12.30.39_veh-25_00321_01196",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 0.0,
@@ -849,7 +803,6 @@
           "log_name": "2021.09.16.19.47.47_veh-08_02366_03150",
           "scenario_type": "near_multiple_vehicles",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -868,7 +821,6 @@
           "log_name": "2021.08.16.17.03.12_veh-08_00172_00582",
           "scenario_type": "high_magnitude_speed",
           "score": 91.1995,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -887,7 +839,6 @@
           "log_name": "2021.09.16.20.23.58_veh-45_01161_01367",
           "scenario_type": "starting_left_turn",
           "score": 76.4113,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -906,7 +857,6 @@
           "log_name": "2021.05.25.12.30.39_veh-25_03774_03886",
           "scenario_type": "following_lane_with_lead",
           "score": 49.3913,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -925,7 +875,6 @@
           "log_name": "2021.06.28.14.51.28_veh-26_02653_05399",
           "scenario_type": "starting_left_turn",
           "score": 69.6651,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -944,7 +893,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -963,7 +911,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_02870_04378",
           "scenario_type": "traversing_pickup_dropoff",
           "score": 76.7797,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -982,7 +929,6 @@
           "log_name": "2021.09.16.14.39.34_veh-42_00297_00935",
           "scenario_type": "high_lateral_acceleration",
           "score": 47.0897,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1001,7 +947,6 @@
           "log_name": "2021.10.06.04.07.24_veh-49_00776_01719",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 94.4458,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1020,7 +965,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_01602_04021",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 85.1859,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1039,7 +983,6 @@
           "log_name": "2021.06.28.14.51.28_veh-26_02653_05399",
           "scenario_type": "high_magnitude_speed",
           "score": 71.209,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1058,7 +1001,6 @@
           "log_name": "2021.10.06.03.07.17_veh-53_01278_02139",
           "scenario_type": "behind_long_vehicle",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1077,7 +1019,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_00384_00671",
           "scenario_type": "starting_left_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1096,7 +1037,6 @@
           "log_name": "2021.10.06.02.32.50_veh-53_01292_01787",
           "scenario_type": "low_magnitude_speed",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1115,7 +1055,6 @@
           "log_name": "2021.06.28.13.53.26_veh-26_00707_03205",
           "scenario_type": "changing_lane",
           "score": 75.5411,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1134,7 +1073,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1153,7 +1091,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 75.7143,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1172,7 +1109,6 @@
           "log_name": "2021.09.16.18.41.38_veh-08_01472_01832",
           "scenario_type": "starting_right_turn",
           "score": 43.1314,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1191,7 +1127,6 @@
           "log_name": "2021.10.06.03.07.17_veh-53_01278_02139",
           "scenario_type": "changing_lane",
           "score": 91.4405,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1210,7 +1145,6 @@
           "log_name": "2021.09.16.15.12.03_veh-42_00275_00620",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1229,7 +1163,6 @@
           "log_name": "2021.09.29.18.19.40_veh-28_01268_01685",
           "scenario_type": "low_magnitude_speed",
           "score": 94.8291,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1248,7 +1181,6 @@
           "log_name": "2021.09.09.19.49.25_veh-39_00453_00713",
           "scenario_type": "starting_right_turn",
           "score": 79.3905,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1267,7 +1199,6 @@
           "log_name": "2021.05.25.15.59.03_veh-30_00885_01251",
           "scenario_type": "stopping_with_lead",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1286,7 +1217,6 @@
           "log_name": "2021.08.30.16.16.44_veh-40_00779_01088",
           "scenario_type": "near_multiple_vehicles",
           "score": 56.0157,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1305,7 +1235,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "changing_lane",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1324,7 +1253,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_02870_04378",
           "scenario_type": "starting_left_turn",
           "score": 86.275,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1343,7 +1271,6 @@
           "log_name": "2021.06.28.22.48.36_veh-14_00005_00762",
           "scenario_type": "traversing_pickup_dropoff",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 0.0,
@@ -1362,7 +1289,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "changing_lane",
           "score": 98.6669,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1381,7 +1307,6 @@
           "log_name": "2021.09.16.20.30.08_veh-42_00658_00910",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1400,7 +1325,6 @@
           "log_name": "2021.05.25.15.14.31_veh-47_03238_03528",
           "scenario_type": "near_multiple_vehicles",
           "score": 90.0016,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1419,7 +1343,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1438,7 +1361,6 @@
           "log_name": "2021.09.16.14.39.34_veh-42_01111_01448",
           "scenario_type": "starting_left_turn",
           "score": 77.0602,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1457,7 +1379,6 @@
           "log_name": "2021.09.09.17.18.51_veh-48_02055_02269",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1476,7 +1397,6 @@
           "log_name": "2021.06.28.13.53.26_veh-26_00707_03205",
           "scenario_type": "high_magnitude_speed",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -1495,7 +1415,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1514,7 +1433,6 @@
           "log_name": "2021.05.25.14.16.10_veh-35_01100_01664",
           "scenario_type": "stopping_with_lead",
           "score": 92.2364,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1533,7 +1451,6 @@
           "log_name": "2021.06.28.17.13.34_veh-16_04046_04493",
           "scenario_type": "following_lane_with_lead",
           "score": 87.8519,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1552,7 +1469,6 @@
           "log_name": "2021.09.16.18.31.12_veh-45_01952_02416",
           "scenario_type": "low_magnitude_speed",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -1571,7 +1487,6 @@
           "log_name": "2021.09.16.16.20.27_veh-08_01562_02066",
           "scenario_type": "low_magnitude_speed",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1590,7 +1505,6 @@
           "log_name": "2021.06.03.18.47.39_veh-35_00881_02426",
           "scenario_type": "following_lane_with_lead",
           "score": 96.567,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1609,7 +1523,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1628,7 +1541,6 @@
           "log_name": "2021.09.16.16.20.27_veh-08_00119_00399",
           "scenario_type": "high_magnitude_speed",
           "score": 88.679,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1647,7 +1559,6 @@
           "log_name": "2021.06.28.16.29.11_veh-38_04607_06901",
           "scenario_type": "near_multiple_vehicles",
           "score": 80.8389,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1666,7 +1577,6 @@
           "log_name": "2021.09.16.20.43.47_veh-08_00783_01358",
           "scenario_type": "low_magnitude_speed",
           "score": 78.4968,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1685,7 +1595,6 @@
           "log_name": "2021.06.03.12.02.06_veh-35_01805_02034",
           "scenario_type": "stationary_in_traffic",
           "score": 80.8052,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1704,7 +1613,6 @@
           "log_name": "2021.05.25.14.16.10_veh-35_04561_05104",
           "scenario_type": "high_magnitude_speed",
           "score": 98.2702,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1723,7 +1631,6 @@
           "log_name": "2021.05.25.14.16.10_veh-35_01100_01664",
           "scenario_type": "high_magnitude_speed",
           "score": 0.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -1742,7 +1649,6 @@
           "log_name": "2021.10.06.04.07.24_veh-49_00776_01719",
           "scenario_type": "changing_lane",
           "score": 0.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1761,7 +1667,6 @@
           "log_name": "2021.06.28.17.56.29_veh-47_00016_01367",
           "scenario_type": "low_magnitude_speed",
           "score": 75.0262,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1780,7 +1685,6 @@
           "log_name": "2021.09.16.15.12.03_veh-42_00275_00620",
           "scenario_type": "behind_long_vehicle",
           "score": 78.5501,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1799,7 +1703,6 @@
           "log_name": "2021.06.28.22.48.36_veh-14_01175_02603",
           "scenario_type": "stopping_with_lead",
           "score": 93.2777,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1818,7 +1721,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 83.6062,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1837,7 +1739,6 @@
           "log_name": "2021.06.28.16.29.11_veh-38_04607_06901",
           "scenario_type": "near_multiple_vehicles",
           "score": 100.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1856,7 +1757,6 @@
           "log_name": "2021.09.16.17.40.35_veh-08_02269_02956",
           "scenario_type": "starting_right_turn",
           "score": 94.16,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1875,7 +1775,6 @@
           "log_name": "2021.09.16.17.40.35_veh-08_00032_01780",
           "scenario_type": "starting_left_turn",
           "score": 100.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1894,7 +1793,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "following_lane_with_lead",
           "score": 100.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1918,15 +1816,12 @@
       "n": 100,
       "mean": 65.74,
       "zero_count": 22,
-      "primary_count": 90,
-      "substitute_count": 10,
       "cases": [
         {
           "token": "044a3924d9e15bc1",
           "log_name": "2021.10.06.03.07.17_veh-53_01278_02139",
           "scenario_type": "starting_left_turn",
           "score": 80.3845,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1945,7 +1840,6 @@
           "log_name": "2021.05.25.14.16.10_veh-35_01100_01664",
           "scenario_type": "starting_left_turn",
           "score": 77.4434,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1964,7 +1858,6 @@
           "log_name": "2021.06.28.17.56.29_veh-47_00016_01367",
           "scenario_type": "changing_lane",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -1983,7 +1876,6 @@
           "log_name": "2021.05.25.15.14.31_veh-47_03238_03528",
           "scenario_type": "high_magnitude_speed",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2002,7 +1894,6 @@
           "log_name": "2021.05.25.14.26.37_veh-27_03603_04010",
           "scenario_type": "stopping_with_lead",
           "score": 94.8104,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2021,7 +1912,6 @@
           "log_name": "2021.06.28.15.10.57_veh-16_02686_03731",
           "scenario_type": "stationary_in_traffic",
           "score": 98.643,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2040,7 +1930,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "low_magnitude_speed",
           "score": 89.9371,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2059,7 +1948,6 @@
           "log_name": "2021.06.28.15.59.39_veh-47_01555_03368",
           "scenario_type": "stationary_in_traffic",
           "score": 80.6876,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2078,7 +1966,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "changing_lane",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 0.0,
@@ -2097,7 +1984,6 @@
           "log_name": "2021.09.16.20.30.08_veh-42_00995_01436",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 68.1699,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2116,7 +2002,6 @@
           "log_name": "2021.09.16.18.31.12_veh-45_02447_02656",
           "scenario_type": "high_lateral_acceleration",
           "score": 36.3997,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2135,7 +2020,6 @@
           "log_name": "2021.09.09.17.18.51_veh-48_02055_02269",
           "scenario_type": "starting_right_turn",
           "score": 86.0053,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2154,7 +2038,6 @@
           "log_name": "2021.06.28.13.53.26_veh-26_00707_03205",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 92.802,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2173,7 +2056,6 @@
           "log_name": "2021.08.16.17.03.12_veh-08_00172_00582",
           "scenario_type": "high_lateral_acceleration",
           "score": 79.7939,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2192,7 +2074,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2211,7 +2092,6 @@
           "log_name": "2021.09.22.06.36.13_veh-53_01137_01583",
           "scenario_type": "starting_left_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 0.0,
@@ -2230,7 +2110,6 @@
           "log_name": "2021.09.16.20.30.08_veh-42_00995_01436",
           "scenario_type": "changing_lane",
           "score": 93.2244,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2249,7 +2128,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_00572_01613",
           "scenario_type": "following_lane_with_lead",
           "score": 90.8185,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2268,7 +2146,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "stopping_with_lead",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2287,7 +2164,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_01602_04021",
           "scenario_type": "high_lateral_acceleration",
           "score": 84.1726,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2306,7 +2182,6 @@
           "log_name": "2021.08.30.11.18.32_veh-40_00019_00275",
           "scenario_type": "near_multiple_vehicles",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -2325,7 +2200,6 @@
           "log_name": "2021.09.16.19.27.01_veh-45_01749_03230",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2344,7 +2218,6 @@
           "log_name": "2021.09.16.19.27.01_veh-45_01749_03230",
           "scenario_type": "high_lateral_acceleration",
           "score": 59.7312,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2363,7 +2236,6 @@
           "log_name": "2021.09.16.19.27.01_veh-45_01749_03230",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 0.0,
@@ -2382,7 +2254,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_01602_04021",
           "scenario_type": "stationary_in_traffic",
           "score": 82.7065,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2401,7 +2272,6 @@
           "log_name": "2021.09.16.17.40.35_veh-08_00032_01780",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 0.0,
@@ -2420,7 +2290,6 @@
           "log_name": "2021.08.30.16.16.44_veh-40_00256_00716",
           "scenario_type": "starting_right_turn",
           "score": 79.457,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2439,7 +2308,6 @@
           "log_name": "2021.09.16.17.40.35_veh-08_00032_01780",
           "scenario_type": "low_magnitude_speed",
           "score": 61.1688,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2458,7 +2326,6 @@
           "log_name": "2021.09.16.20.23.58_veh-45_00508_00757",
           "scenario_type": "near_multiple_vehicles",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -2477,7 +2344,6 @@
           "log_name": "2021.09.16.20.43.47_veh-08_00783_01358",
           "scenario_type": "high_lateral_acceleration",
           "score": 78.6458,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2496,7 +2362,6 @@
           "log_name": "2021.09.16.14.39.34_veh-42_00297_00935",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2515,7 +2380,6 @@
           "log_name": "2021.09.16.16.20.27_veh-08_00119_00399",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 98.2338,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2534,7 +2398,6 @@
           "log_name": "2021.10.06.02.32.50_veh-53_01292_01787",
           "scenario_type": "high_lateral_acceleration",
           "score": 75.4835,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2553,7 +2416,6 @@
           "log_name": "2021.09.22.07.43.38_veh-49_01489_01803",
           "scenario_type": "starting_left_turn",
           "score": 75.2187,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2572,7 +2434,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "high_lateral_acceleration",
           "score": 97.7214,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2591,7 +2452,6 @@
           "log_name": "2021.09.22.01.45.32_veh-53_00298_00432",
           "scenario_type": "high_lateral_acceleration",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2610,7 +2470,6 @@
           "log_name": "2021.09.16.19.47.47_veh-08_02366_03150",
           "scenario_type": "high_lateral_acceleration",
           "score": 89.9298,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2629,7 +2488,6 @@
           "log_name": "2021.10.06.07.15.13_veh-49_00400_00884",
           "scenario_type": "changing_lane",
           "score": 40.8069,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2648,7 +2506,6 @@
           "log_name": "2021.09.16.15.12.03_veh-42_00275_00620",
           "scenario_type": "high_lateral_acceleration",
           "score": 48.804,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2667,7 +2524,6 @@
           "log_name": "2021.05.25.14.26.37_veh-27_01774_01960",
           "scenario_type": "starting_left_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2686,7 +2542,6 @@
           "log_name": "2021.06.28.15.02.02_veh-38_01966_02377",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2705,7 +2560,6 @@
           "log_name": "2021.09.09.17.18.51_veh-48_02055_02269",
           "scenario_type": "near_multiple_vehicles",
           "score": 77.404,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2724,7 +2578,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_00572_01613",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 41.1733,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2743,7 +2596,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "low_magnitude_speed",
           "score": 75.6491,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2762,7 +2614,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2781,7 +2632,6 @@
           "log_name": "2021.09.16.18.31.12_veh-45_01952_02416",
           "scenario_type": "high_lateral_acceleration",
           "score": 81.6618,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2800,7 +2650,6 @@
           "log_name": "2021.05.25.12.30.39_veh-25_00321_01196",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 0.0,
@@ -2819,7 +2668,6 @@
           "log_name": "2021.09.16.19.47.47_veh-08_02366_03150",
           "scenario_type": "near_multiple_vehicles",
           "score": 40.1831,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2838,7 +2686,6 @@
           "log_name": "2021.08.16.17.03.12_veh-08_00172_00582",
           "scenario_type": "high_magnitude_speed",
           "score": 78.7393,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2857,7 +2704,6 @@
           "log_name": "2021.09.16.20.23.58_veh-45_01161_01367",
           "scenario_type": "starting_left_turn",
           "score": 77.0876,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2876,7 +2722,6 @@
           "log_name": "2021.05.25.12.30.39_veh-25_03774_03886",
           "scenario_type": "following_lane_with_lead",
           "score": 92.9015,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2895,7 +2740,6 @@
           "log_name": "2021.06.28.14.51.28_veh-26_02653_05399",
           "scenario_type": "starting_left_turn",
           "score": 67.6679,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2914,7 +2758,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2933,7 +2776,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_02870_04378",
           "scenario_type": "traversing_pickup_dropoff",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -2952,7 +2794,6 @@
           "log_name": "2021.09.16.14.39.34_veh-42_00297_00935",
           "scenario_type": "high_lateral_acceleration",
           "score": 47.1408,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2971,7 +2812,6 @@
           "log_name": "2021.10.06.04.07.24_veh-49_00776_01719",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 94.4458,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -2990,7 +2830,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_01602_04021",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -3009,7 +2848,6 @@
           "log_name": "2021.06.28.14.51.28_veh-26_02653_05399",
           "scenario_type": "high_magnitude_speed",
           "score": 59.6849,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3028,7 +2866,6 @@
           "log_name": "2021.10.06.03.07.17_veh-53_01278_02139",
           "scenario_type": "behind_long_vehicle",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3047,7 +2884,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "traversing_pickup_dropoff",
           "score": 94.8318,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3066,7 +2902,6 @@
           "log_name": "2021.06.28.14.55.14_veh-12_00384_00671",
           "scenario_type": "starting_left_turn",
           "score": 72.3587,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3085,7 +2920,6 @@
           "log_name": "2021.10.06.02.32.50_veh-53_01292_01787",
           "scenario_type": "low_magnitude_speed",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3104,7 +2938,6 @@
           "log_name": "2021.06.28.13.53.26_veh-26_00707_03205",
           "scenario_type": "changing_lane",
           "score": 91.728,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3123,7 +2956,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "starting_right_turn",
           "score": 81.7575,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3142,7 +2974,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 87.6241,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3161,7 +2992,6 @@
           "log_name": "2021.09.16.18.41.38_veh-08_01472_01832",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3180,7 +3010,6 @@
           "log_name": "2021.05.25.12.40.06_veh-47_05213_05515",
           "scenario_type": "waiting_for_pedestrian_to_cross",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.5,
             "drivable_area_compliance": 0.0,
@@ -3199,7 +3028,6 @@
           "log_name": "2021.10.06.03.07.17_veh-53_01278_02139",
           "scenario_type": "changing_lane",
           "score": 86.9232,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3218,7 +3046,6 @@
           "log_name": "2021.09.16.15.12.03_veh-42_00275_00620",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3237,7 +3064,6 @@
           "log_name": "2021.09.29.18.19.40_veh-28_01268_01685",
           "scenario_type": "low_magnitude_speed",
           "score": 83.9662,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3256,7 +3082,6 @@
           "log_name": "2021.09.09.19.49.25_veh-39_00453_00713",
           "scenario_type": "starting_right_turn",
           "score": 95.8761,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3275,7 +3100,6 @@
           "log_name": "2021.05.25.15.59.03_veh-30_00885_01251",
           "scenario_type": "stopping_with_lead",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3294,7 +3118,6 @@
           "log_name": "2021.08.30.16.16.44_veh-40_00779_01088",
           "scenario_type": "near_multiple_vehicles",
           "score": 90.6857,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3313,7 +3136,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "changing_lane",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3332,7 +3154,6 @@
           "log_name": "2021.06.28.18.30.41_veh-12_02870_04378",
           "scenario_type": "starting_left_turn",
           "score": 83.6199,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3351,7 +3172,6 @@
           "log_name": "2021.10.06.03.07.17_veh-53_00121_00293",
           "scenario_type": "starting_right_turn",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3370,7 +3190,6 @@
           "log_name": "2021.06.28.22.48.36_veh-14_00005_00762",
           "scenario_type": "traversing_pickup_dropoff",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 0.0,
@@ -3389,7 +3208,6 @@
           "log_name": "2021.10.06.08.13.16_veh-51_00692_01123",
           "scenario_type": "changing_lane",
           "score": 98.8249,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3408,7 +3226,6 @@
           "log_name": "2021.09.16.20.30.08_veh-42_00658_00910",
           "scenario_type": "starting_right_turn",
           "score": 97.3129,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3427,7 +3244,6 @@
           "log_name": "2021.05.25.15.14.31_veh-47_03238_03528",
           "scenario_type": "near_multiple_vehicles",
           "score": 86.1482,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3446,7 +3262,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3465,7 +3280,6 @@
           "log_name": "2021.09.16.14.39.34_veh-42_01111_01448",
           "scenario_type": "starting_left_turn",
           "score": 89.9348,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3484,7 +3298,6 @@
           "log_name": "2021.09.09.17.18.51_veh-48_02055_02269",
           "scenario_type": "starting_straight_traffic_light_intersection_traversal",
           "score": 90.6532,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3503,7 +3316,6 @@
           "log_name": "2021.06.28.13.53.26_veh-26_00707_03205",
           "scenario_type": "high_magnitude_speed",
           "score": 64.9544,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3522,7 +3334,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3541,7 +3352,6 @@
           "log_name": "2021.05.25.14.16.10_veh-35_01100_01664",
           "scenario_type": "stopping_with_lead",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3560,7 +3370,6 @@
           "log_name": "2021.06.28.17.13.34_veh-16_04046_04493",
           "scenario_type": "following_lane_with_lead",
           "score": 90.5231,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3579,7 +3388,6 @@
           "log_name": "2021.09.16.18.31.12_veh-45_01952_02416",
           "scenario_type": "low_magnitude_speed",
           "score": 0.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -3598,7 +3406,6 @@
           "log_name": "2021.09.16.16.20.27_veh-08_01562_02066",
           "scenario_type": "low_magnitude_speed",
           "score": 100.0,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3617,7 +3424,6 @@
           "log_name": "2021.06.03.18.47.39_veh-35_00881_02426",
           "scenario_type": "following_lane_with_lead",
           "score": 97.7267,
-          "is_substitute": false,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3636,7 +3442,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3655,7 +3460,6 @@
           "log_name": "2021.09.16.16.20.27_veh-08_00119_00399",
           "scenario_type": "high_magnitude_speed",
           "score": 89.6883,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3674,7 +3478,6 @@
           "log_name": "2021.06.28.16.29.11_veh-38_04607_06901",
           "scenario_type": "near_multiple_vehicles",
           "score": 79.318,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3693,7 +3496,6 @@
           "log_name": "2021.06.03.12.02.06_veh-35_01805_02034",
           "scenario_type": "stationary_in_traffic",
           "score": 75.6296,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3712,7 +3514,6 @@
           "log_name": "2021.05.25.14.16.10_veh-35_01100_01664",
           "scenario_type": "high_magnitude_speed",
           "score": 0.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 0.0,
             "drivable_area_compliance": 1.0,
@@ -3731,7 +3532,6 @@
           "log_name": "2021.06.28.17.56.29_veh-47_00016_01367",
           "scenario_type": "low_magnitude_speed",
           "score": 88.8117,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3750,7 +3550,6 @@
           "log_name": "2021.09.16.15.12.03_veh-42_00275_00620",
           "scenario_type": "behind_long_vehicle",
           "score": 0.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3769,7 +3568,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "behind_long_vehicle",
           "score": 100.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3788,7 +3586,6 @@
           "log_name": "2021.09.16.17.40.35_veh-08_02269_02956",
           "scenario_type": "starting_right_turn",
           "score": 79.9336,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
@@ -3807,7 +3604,6 @@
           "log_name": "2021.06.28.21.23.50_veh-47_01886_04690",
           "scenario_type": "following_lane_with_lead",
           "score": 100.0,
-          "is_substitute": true,
           "gates": {
             "no_ego_at_fault_collisions": 1.0,
             "drivable_area_compliance": 1.0,
