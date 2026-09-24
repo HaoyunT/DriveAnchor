@@ -1,0 +1,20 @@
+{
+  "source_sha256": "91ded8db5e6fc2f7639cbed07ca46090527eceb89a2a8fcb0897537618c0bcf3",
+  "image_sha256": "d3b6c0dd956b22ad32929379adc27570fb7b4a649b613418cb5453ecfa509090",
+  "shape": [
+    3000,
+    40,
+    2
+  ],
+  "all_anchors_plotted": true,
+  "resampling_or_smoothing": false,
+  "longitudinal_range_m": [
+    -2.4716455936431885,
+    73.70518493652344
+  ],
+  "lateral_range_m": [
+    -19.61256980895996,
+    19.67938232421875
+  ],
+  "color_encoding": "endpoint lateral displacement in meters"
+}

@@ -1,0 +1,3627 @@
+{
+  "benchmark": "Val14",
+  "arms": {
+    "NR": {
+      "n": 100,
+      "mean": 84.8,
+      "zero_count": 7,
+      "cases": [
+        {
+          "token": "062a19468a765955",
+          "log_name": "2021.09.23.07.27.52_veh-50_00118_00631",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.135715,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 82.113
+        },
+        {
+          "token": "09387c1b42aa5288",
+          "log_name": "2021.09.14.18.43.41_veh-45_01555_02218",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.676201,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 89.8813
+        },
+        {
+          "token": "0c6560fdf22051d5",
+          "log_name": "2021.07.24.16.07.03_veh-35_03033_05899",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.595867,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.999651,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 87.3621
+        },
+        {
+          "token": "0e230c7c31ee5638",
+          "log_name": "2021.07.24.16.48.51_veh-17_00177_02552",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.822284,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.4464
+        },
+        {
+          "token": "0f218605b46855a3",
+          "log_name": "2021.07.24.19.10.14_veh-37_02937_03698",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.890215,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 84.0692
+        },
+        {
+          "token": "119ac9e47adb539c",
+          "log_name": "2021.06.07.17.46.49_veh-35_04839_05184",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "11ac0cd68d2b52be",
+          "log_name": "2021.06.07.12.01.13_veh-47_03622_03844",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.317535,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 78.673
+        },
+        {
+          "token": "13206e5a247c5d64",
+          "log_name": "2021.07.24.22.58.17_veh-37_00207_03083",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.617451,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 88.0454
+        },
+        {
+          "token": "133baa14fb5457ac",
+          "log_name": "2021.07.24.00.12.51_veh-37_03485_04947",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "18438b7efd275e7a",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.54413,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 85.7541
+        },
+        {
+          "token": "1aef09b936ca5f72",
+          "log_name": "2021.07.24.00.58.02_veh-12_00016_00623",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "1e5876a1d8045e46",
+          "log_name": "2021.07.24.03.01.39_veh-47_00005_00893",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.605482,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "1f463bd4f9a85923",
+          "log_name": "2021.06.08.14.14.51_veh-35_04597_05038",
+          "scenario_type": "following_lane_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.859123,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 95.5976
+        },
+        {
+          "token": "1f92b9e3409f52bd",
+          "log_name": "2021.06.07.12.54.00_veh-35_01843_02314",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "20dd31cd90325acc",
+          "log_name": "2021.07.24.20.37.45_veh-17_00386_01357",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.913679,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 97.3025
+        },
+        {
+          "token": "23618ef975b35da4",
+          "log_name": "2021.07.24.22.58.17_veh-37_03094_05238",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.950922,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 98.4663
+        },
+        {
+          "token": "2609befadf81533d",
+          "log_name": "2021.09.14.17.35.14_veh-45_00520_01008",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.937884,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 98.0589
+        },
+        {
+          "token": "2676de7a1f395982",
+          "log_name": "2021.07.24.00.12.51_veh-37_03485_04947",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "26cd2c1bfff85b53",
+          "log_name": "2021.09.13.14.55.48_veh-28_00638_01212",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.837167,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.9115
+        },
+        {
+          "token": "297460a38cf85c4a",
+          "log_name": "2021.06.07.17.46.49_veh-35_00005_00785",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "29b2a32bfd73543e",
+          "log_name": "2021.07.24.16.48.51_veh-17_04593_05398",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "2b5f330cc84a58d3",
+          "log_name": "2021.07.24.20.37.45_veh-17_00386_01357",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.224066,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 75.7521
+        },
+        {
+          "token": "2d4fa9eb37155845",
+          "log_name": "2021.09.14.18.43.41_veh-45_00196_00578",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.737734,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 91.8042
+        },
+        {
+          "token": "30aa28efb1a45959",
+          "log_name": "2021.07.24.23.59.52_veh-12_07598_08663",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.845785,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 95.1808
+        },
+        {
+          "token": "3196c324c82c553c",
+          "log_name": "2021.07.24.23.50.16_veh-17_06539_06969",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "322b2169ba325227",
+          "log_name": "2021.07.24.23.59.52_veh-12_00016_00481",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.682633,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 90.0823
+        },
+        {
+          "token": "35af99c29b41575b",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.304818,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 78.2756
+        },
+        {
+          "token": "3639112fbe5354b8",
+          "log_name": "2021.06.07.17.46.49_veh-35_01772_02337",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "36516922212f5065",
+          "log_name": "2021.07.24.16.48.51_veh-17_02573_03272",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.4379,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 82.4344
+        },
+        {
+          "token": "3dc3d20b2f78573c",
+          "log_name": "2021.07.24.23.59.52_veh-12_03414_04602",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.99891,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 87.4728
+        },
+        {
+          "token": "44a9f55424b0549d",
+          "log_name": "2021.07.24.23.50.16_veh-17_03681_04569",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "45f20433b45a554c",
+          "log_name": "2021.06.07.17.46.49_veh-35_02607_03120",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.700971,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 90.6553
+        },
+        {
+          "token": "48303bdf88815d47",
+          "log_name": "2021.07.24.00.36.59_veh-47_05600_06769",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "4930fdc43c1857ae",
+          "log_name": "2021.06.07.18.29.03_veh-16_04252_04622",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "4a1cedb052d35575",
+          "log_name": "2021.07.24.23.50.16_veh-17_06539_06969",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.821651,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.4266
+        },
+        {
+          "token": "4dd6951ee5975dab",
+          "log_name": "2021.07.24.22.53.21_veh-47_00045_00901",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "53a7722e3f4e5402",
+          "log_name": "2021.09.14.19.46.05_veh-45_01029_01458",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.960292,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 98.7591
+        },
+        {
+          "token": "5598103d55ca5cc2",
+          "log_name": "2021.08.24.15.09.18_veh-45_00216_00862",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.61245,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 87.8891
+        },
+        {
+          "token": "5a5f644a927b5d42",
+          "log_name": "2021.07.24.00.12.51_veh-37_00501_01420",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "5fdf486d23b65b07",
+          "log_name": "2021.07.24.16.07.03_veh-35_01834_03011",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "605598ad9db955c1",
+          "log_name": "2021.07.24.00.58.02_veh-12_01105_01810",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "63a31921e3dd56dd",
+          "log_name": "2021.06.07.19.29.59_veh-38_00016_00463",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.668885,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 89.6527
+        },
+        {
+          "token": "6744a91db9485d20",
+          "log_name": "2021.09.23.02.58.49_veh-53_00913_01591",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.315142,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 78.5982
+        },
+        {
+          "token": "6bd725d8fb4e569f",
+          "log_name": "2021.07.24.00.58.02_veh-12_01105_01810",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "6c9d5706ae415e2a",
+          "log_name": "2021.07.24.00.36.59_veh-47_02465_04054",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.580553,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 0.999898,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "710f232ee6ae5933",
+          "log_name": "2021.07.24.22.52.16_veh-35_04956_06521",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.879499,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 96.2343
+        },
+        {
+          "token": "71b3a829aa955429",
+          "log_name": "2021.07.24.00.12.51_veh-37_00501_01420",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.980042,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.3763
+        },
+        {
+          "token": "71f20f6407c55709",
+          "log_name": "2021.08.24.19.30.33_veh-45_01096_01251",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.708345,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 90.8858
+        },
+        {
+          "token": "7293e44c51595f9a",
+          "log_name": "2021.09.13.17.46.46_veh-28_01192_01517",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.368264,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 80.2582
+        },
+        {
+          "token": "72d1ff8ce9d65996",
+          "log_name": "2021.07.24.00.36.59_veh-47_04360_05497",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.834199,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.8187
+        },
+        {
+          "token": "77d818bb3b8e5ddf",
+          "log_name": "2021.07.24.23.59.52_veh-12_01548_02862",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "7ab2527d43b55c00",
+          "log_name": "2021.10.05.06.31.40_veh-52_01598_02013",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.913397,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 97.2937
+        },
+        {
+          "token": "7f8f161607df5291",
+          "log_name": "2021.07.24.22.58.17_veh-37_00207_03083",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.918823,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 97.4632
+        },
+        {
+          "token": "8118ba55e04751a7",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.627964,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 88.3739
+        },
+        {
+          "token": "8a5fc1cdb6645f19",
+          "log_name": "2021.09.13.19.54.33_veh-39_00631_01093",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.778894,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 93.0904
+        },
+        {
+          "token": "8ad4fbbaa4e35772",
+          "log_name": "2021.07.24.16.48.51_veh-17_00177_02552",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.247989,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 76.4997
+        },
+        {
+          "token": "8b4daccc76555c6c",
+          "log_name": "2021.06.07.17.46.49_veh-35_01772_02337",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.301749,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.950181,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 76.9342
+        },
+        {
+          "token": "8eb8410b1e385101",
+          "log_name": "2021.07.24.03.01.39_veh-47_00005_00893",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "9c3754dd9d09518a",
+          "log_name": "2021.07.24.00.58.02_veh-12_01831_03390",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "9f97c852a33c5df5",
+          "log_name": "2021.06.08.14.14.51_veh-35_01815_02289",
+          "scenario_type": "following_lane_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.783795,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "a00cdefa24dc566f",
+          "log_name": "2021.07.24.23.59.52_veh-12_01548_02862",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "a51bd16d5f2b5a9b",
+          "log_name": "2021.09.13.18.55.39_veh-28_00487_00688",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.697709,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 78.0534
+        },
+        {
+          "token": "a68eddd8d64c5748",
+          "log_name": "2021.08.24.18.30.46_veh-08_00035_01650",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.1258,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "ac83bb7914fa5c49",
+          "log_name": "2021.07.24.00.58.02_veh-12_01831_03390",
+          "scenario_type": "behind_long_vehicle",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "ae5eff08c15f5772",
+          "log_name": "2021.06.08.14.36.49_veh-38_00705_01463",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "b5fab79404cb5005",
+          "log_name": "2021.09.23.05.33.01_veh-51_00016_00386",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.847752,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 95.2422
+        },
+        {
+          "token": "b662f7a2aff650bb",
+          "log_name": "2021.07.24.22.52.16_veh-35_02350_03214",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.477057,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 83.658
+        },
+        {
+          "token": "b6dfb45102bf5e2f",
+          "log_name": "2021.07.24.20.02.23_veh-47_00005_00767",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.890871,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 96.5897
+        },
+        {
+          "token": "b9231de6bd845d76",
+          "log_name": "2021.08.31.18.15.54_veh-40_01143_01496",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.247126,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 76.4727
+        },
+        {
+          "token": "bbc7bb010c275ea4",
+          "log_name": "2021.09.14.16.46.51_veh-45_00149_00900",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.5,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.923035,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 33.1724
+        },
+        {
+          "token": "bec10cb7c4985dbe",
+          "log_name": "2021.08.24.13.20.17_veh-08_00016_00738",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "c3e46ff35ccd5d8e",
+          "log_name": "2021.07.24.00.58.02_veh-12_01831_03390",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "c45571dbd2ce5e92",
+          "log_name": "2021.08.24.19.30.33_veh-45_01391_01523",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.511775,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.988385,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 84.4526
+        },
+        {
+          "token": "c56297c6cebd57b4",
+          "log_name": "2021.07.24.16.48.51_veh-17_02573_03272",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "c63dad53040755fd",
+          "log_name": "2021.07.24.00.12.51_veh-37_02616_03464",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.995209,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.8503
+        },
+        {
+          "token": "c784279daa025ecd",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.979192,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.4798
+        },
+        {
+          "token": "ce46277ede7151f7",
+          "log_name": "2021.08.31.18.15.54_veh-40_01143_01496",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.412408,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 81.6377
+        },
+        {
+          "token": "d2ad32d40e255c03",
+          "log_name": "2021.09.14.19.46.05_veh-45_02130_02483",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 68.75
+        },
+        {
+          "token": "d4c8c61f071c5f51",
+          "log_name": "2021.07.24.16.07.03_veh-35_03033_05899",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.922504,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 85.0782
+        },
+        {
+          "token": "d506fe99e97c5950",
+          "log_name": "2021.07.24.16.41.10_veh-12_00231_01246",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.721753,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 91.3048
+        },
+        {
+          "token": "d77157608aad5340",
+          "log_name": "2021.06.07.13.53.57_veh-35_03332_03909",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "dc3be40d19af525a",
+          "log_name": "2021.07.24.16.51.13_veh-26_01887_04395",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.031094,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 77.18
+        },
+        {
+          "token": "dc6ad473cea05799",
+          "log_name": "2021.07.24.22.53.21_veh-47_03396_04635",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "df3209418f485407",
+          "log_name": "2021.06.08.17.25.03_veh-35_01953_02306",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.27969,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 64.9903
+        },
+        {
+          "token": "e210b8db466755c6",
+          "log_name": "2021.07.24.00.36.59_veh-47_00439_02454",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "e214555df62554bd",
+          "log_name": "2021.07.24.22.58.17_veh-37_00207_03083",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "e3456b82bcf8583b",
+          "log_name": "2021.07.24.03.01.39_veh-47_00005_00893",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.605788,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 87.6809
+        },
+        {
+          "token": "e34c9ed042405fe4",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.736473,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 91.7648
+        },
+        {
+          "token": "e8a0328d71c95c9e",
+          "log_name": "2021.07.24.23.50.16_veh-17_03681_04569",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.232419,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 76.0131
+        },
+        {
+          "token": "ea3ba48c466e55db",
+          "log_name": "2021.07.24.19.10.14_veh-37_02937_03698",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.837928,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.9353
+        },
+        {
+          "token": "ed70a7ca5350593a",
+          "log_name": "2021.07.24.23.59.52_veh-12_01025_01526",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.627877,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "edeab17e9e495644",
+          "log_name": "2021.09.13.13.21.28_veh-39_01713_01950",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.419376,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 81.8555
+        },
+        {
+          "token": "f043838992745ad4",
+          "log_name": "2021.06.07.12.54.00_veh-35_00267_00880",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.638346,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 88.6983
+        },
+        {
+          "token": "f2775866549b5580",
+          "log_name": "2021.09.23.01.44.00_veh-49_00853_01182",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.835502,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 63.6094
+        },
+        {
+          "token": "f45001858b8e5422",
+          "log_name": "2021.07.24.23.59.52_veh-12_06259_07141",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.969098,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.0343
+        },
+        {
+          "token": "f47d8b7828245583",
+          "log_name": "2021.07.24.20.58.00_veh-35_00016_00776",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "f9c453610b045457",
+          "log_name": "2021.09.23.02.37.41_veh-51_00039_00529",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.157211,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "fa82f3a838b15805",
+          "log_name": "2021.07.24.19.10.14_veh-37_00015_01108",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.874387,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 83.5746
+        },
+        {
+          "token": "fc95574ebac8588b",
+          "log_name": "2021.07.24.00.58.02_veh-12_04734_05270",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.686378,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 90.1993
+        },
+        {
+          "token": "ff87f53ee3b85930",
+          "log_name": "2021.07.24.16.51.13_veh-26_01887_04395",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        }
+      ],
+      "sampling": {
+        "seed": 20260920,
+        "method": "Full set: 1118 scenarios \u2192 stratified by scenario_type, proportional, min 1 per type \u2192 single random draw of 100 scenarios for evaluation (seed 20260920)"
+      }
+    },
+    "R": {
+      "n": 100,
+      "mean": 81.5,
+      "zero_count": 9,
+      "cases": [
+        {
+          "token": "0217d32c99f35e8d",
+          "log_name": "2021.07.24.22.53.21_veh-47_01429_03205",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.574639,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.947628,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 85.3982
+        },
+        {
+          "token": "0338779ea8ba5128",
+          "log_name": "2021.08.24.18.56.54_veh-45_00801_01587",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.98178,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.4306
+        },
+        {
+          "token": "049dada6c5635d20",
+          "log_name": "2021.07.24.00.12.51_veh-37_02616_03464",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "05b9e0a5a3055aa2",
+          "log_name": "2021.07.24.20.02.23_veh-47_00901_01641",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.242738,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 76.3356
+        },
+        {
+          "token": "07e58fd094685c7c",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "0adcd0e658d359a7",
+          "log_name": "2021.06.07.12.01.13_veh-47_04492_05024",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "0e230c7c31ee5638",
+          "log_name": "2021.07.24.16.48.51_veh-17_00177_02552",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.894454,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 96.7017
+        },
+        {
+          "token": "11ac0cd68d2b52be",
+          "log_name": "2021.06.07.12.01.13_veh-47_03622_03844",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.424066,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 82.0021
+        },
+        {
+          "token": "13206e5a247c5d64",
+          "log_name": "2021.07.24.22.58.17_veh-37_00207_03083",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "1f92b9e3409f52bd",
+          "log_name": "2021.06.07.12.54.00_veh-35_01843_02314",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "26a70fbb0bc6522e",
+          "log_name": "2021.06.07.13.53.57_veh-35_03332_03909",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.946015,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 98.313
+        },
+        {
+          "token": "297460a38cf85c4a",
+          "log_name": "2021.06.07.17.46.49_veh-35_00005_00785",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "29b2a32bfd73543e",
+          "log_name": "2021.07.24.16.48.51_veh-17_04593_05398",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "29cfa239ca925107",
+          "log_name": "2021.06.08.12.00.19_veh-35_01356_01711",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.403389,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 81.3559
+        },
+        {
+          "token": "30aa28efb1a45959",
+          "log_name": "2021.07.24.23.59.52_veh-12_07598_08663",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.75305,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 92.2828
+        },
+        {
+          "token": "322b2169ba325227",
+          "log_name": "2021.07.24.23.59.52_veh-12_00016_00481",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.224205,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 75.7564
+        },
+        {
+          "token": "3260e05e584d5fe8",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.418847,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 81.839
+        },
+        {
+          "token": "34abdafdc5bf5f02",
+          "log_name": "2021.06.07.18.29.03_veh-16_01069_01662",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.830727,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.7102
+        },
+        {
+          "token": "35af99c29b41575b",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.331857,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 79.1205
+        },
+        {
+          "token": "3639112fbe5354b8",
+          "log_name": "2021.06.07.17.46.49_veh-35_01772_02337",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.850466,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 95.3271
+        },
+        {
+          "token": "36bb406c02415a1f",
+          "log_name": "2021.07.24.15.54.20_veh-47_02088_03551",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.420891,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 81.9028
+        },
+        {
+          "token": "37a0dd129f335fb5",
+          "log_name": "2021.07.24.16.41.10_veh-12_00231_01246",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.227088,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.978882,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 75.3186
+        },
+        {
+          "token": "390b7a4290705fad",
+          "log_name": "2021.07.24.16.07.03_veh-35_03033_05899",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.216385,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 75.512
+        },
+        {
+          "token": "3b21090dafc054b9",
+          "log_name": "2021.07.24.00.58.02_veh-12_04734_05270",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.211896,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 75.3717
+        },
+        {
+          "token": "3bbe2bed3f6957ea",
+          "log_name": "2021.06.08.14.14.51_veh-35_00331_00850",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "3dc3d20b2f78573c",
+          "log_name": "2021.07.24.23.59.52_veh-12_03414_04602",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.931687,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 0.99891,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 54.088
+        },
+        {
+          "token": "428a595895755ca9",
+          "log_name": "2021.06.08.18.19.18_veh-47_03984_04405",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "44a9f55424b0549d",
+          "log_name": "2021.07.24.23.50.16_veh-17_03681_04569",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "45f20433b45a554c",
+          "log_name": "2021.06.07.17.46.49_veh-35_02607_03120",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.370089,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "4618e83e82d851db",
+          "log_name": "2021.08.24.13.20.17_veh-08_00016_00738",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.359711,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 79.991
+        },
+        {
+          "token": "48303bdf88815d47",
+          "log_name": "2021.07.24.00.36.59_veh-47_05600_06769",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "4850ef64e2c255d4",
+          "log_name": "2021.09.14.18.43.41_veh-45_00965_01195",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.507126,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 84.5977
+        },
+        {
+          "token": "49e45364d9d55b37",
+          "log_name": "2021.07.24.22.53.21_veh-47_00045_00901",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.388564,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 80.8926
+        },
+        {
+          "token": "4a1cedb052d35575",
+          "log_name": "2021.07.24.23.50.16_veh-17_06539_06969",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "53a7722e3f4e5402",
+          "log_name": "2021.09.14.19.46.05_veh-45_01029_01458",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.988402,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.6376
+        },
+        {
+          "token": "5598103d55ca5cc2",
+          "log_name": "2021.08.24.15.09.18_veh-45_00216_00862",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 0.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.651215,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "5bcaaed9e73f5fc2",
+          "log_name": "2021.09.23.03.40.18_veh-49_00757_01172",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.714451,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 91.0766
+        },
+        {
+          "token": "5c368994f4f2586c",
+          "log_name": "2021.06.08.14.14.51_veh-35_04291_04586",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.755067,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 92.3459
+        },
+        {
+          "token": "5e8c626551b15567",
+          "log_name": "2021.07.24.23.59.52_veh-12_01548_02862",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.653829,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 57.9322
+        },
+        {
+          "token": "5fdf486d23b65b07",
+          "log_name": "2021.07.24.16.07.03_veh-35_01834_03011",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "60c1bc7de8ee5b8a",
+          "log_name": "2021.08.24.18.30.46_veh-08_00035_01650",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.62131,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 88.1659
+        },
+        {
+          "token": "63a31921e3dd56dd",
+          "log_name": "2021.06.07.19.29.59_veh-38_00016_00463",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "6591919b5db45646",
+          "log_name": "2021.08.24.19.26.32_veh-08_01958_02519",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 0.5
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.707482,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 39.1794
+        },
+        {
+          "token": "6744a91db9485d20",
+          "log_name": "2021.09.23.02.58.49_veh-53_00913_01591",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.360838,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 80.0262
+        },
+        {
+          "token": "6bd725d8fb4e569f",
+          "log_name": "2021.07.24.00.58.02_veh-12_01105_01810",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "6c9d5706ae415e2a",
+          "log_name": "2021.07.24.00.36.59_veh-47_02465_04054",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.284462,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.999888,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 77.6366
+        },
+        {
+          "token": "710f232ee6ae5933",
+          "log_name": "2021.07.24.22.52.16_veh-35_04956_06521",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.882489,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 96.3278
+        },
+        {
+          "token": "71b3a829aa955429",
+          "log_name": "2021.07.24.00.12.51_veh-37_00501_01420",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.817037,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.2824
+        },
+        {
+          "token": "71f20f6407c55709",
+          "log_name": "2021.08.24.19.30.33_veh-45_01096_01251",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.708345,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 90.8858
+        },
+        {
+          "token": "72d1ff8ce9d65996",
+          "log_name": "2021.07.24.00.36.59_veh-47_04360_05497",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "76555123d9e15f53",
+          "log_name": "2021.06.08.17.29.54_veh-16_02128_02701",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "76c046586ec65d90",
+          "log_name": "2021.10.05.06.24.06_veh-50_00717_01300",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.104548,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "79766599ff6b5b62",
+          "log_name": "2021.09.23.06.51.14_veh-51_01382_01988",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.491463,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 84.1082
+        },
+        {
+          "token": "7ab2527d43b55c00",
+          "log_name": "2021.10.05.06.31.40_veh-52_01598_02013",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.45335,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 82.9172
+        },
+        {
+          "token": "7c59b23242215b68",
+          "log_name": "2021.07.24.00.12.51_veh-37_03485_04947",
+          "scenario_type": "following_lane_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.660013,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 89.3754
+        },
+        {
+          "token": "7fdfe78ce40851c8",
+          "log_name": "2021.07.24.16.48.51_veh-17_03292_03530",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "8118ba55e04751a7",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "starting_right_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.662085,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 89.4401
+        },
+        {
+          "token": "82317508dea55b9d",
+          "log_name": "2021.09.14.16.46.51_veh-45_01498_01768",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.059322,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "88cf2d1d3b705e17",
+          "log_name": "2021.07.24.16.48.51_veh-17_00177_02552",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "8a5fc1cdb6645f19",
+          "log_name": "2021.09.13.19.54.33_veh-39_00631_01093",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.860573,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 95.6429
+        },
+        {
+          "token": "8d3c4c8456485f02",
+          "log_name": "2021.07.24.00.12.51_veh-37_03485_04947",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "8eb8410b1e385101",
+          "log_name": "2021.07.24.03.01.39_veh-47_00005_00893",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "9553e5e5324655c9",
+          "log_name": "2021.07.24.22.53.21_veh-47_01429_03205",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.398175,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.98917,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 80.9222
+        },
+        {
+          "token": "96424a88a5e5592b",
+          "log_name": "2021.07.24.16.48.51_veh-17_04593_05398",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.61941,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 88.1066
+        },
+        {
+          "token": "96e1ab46830a5abb",
+          "log_name": "2021.07.24.22.52.16_veh-35_02350_03214",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.320905,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 78.7783
+        },
+        {
+          "token": "9a0e3116d3f95fb0",
+          "log_name": "2021.07.24.20.37.45_veh-17_00386_01357",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.343991,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 0.974439,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 47.6107
+        },
+        {
+          "token": "9d9676d91f13569d",
+          "log_name": "2021.06.07.13.42.27_veh-47_00299_00588",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.450512,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 82.8285
+        },
+        {
+          "token": "9ff7afcfadad597e",
+          "log_name": "2021.06.08.14.14.51_veh-35_03805_04010",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.901159,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 96.9112
+        },
+        {
+          "token": "a68eddd8d64c5748",
+          "log_name": "2021.08.24.18.30.46_veh-08_00035_01650",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.393815,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 81.0567
+        },
+        {
+          "token": "a7d5055f7958550f",
+          "log_name": "2021.08.24.17.34.27_veh-45_01118_01346",
+          "scenario_type": "near_multiple_vehicles",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 0.5
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.147011,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "b43bd580ef6d5873",
+          "log_name": "2021.07.24.23.50.16_veh-17_04580_05245",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "b6dfb45102bf5e2f",
+          "log_name": "2021.07.24.20.02.23_veh-47_00005_00767",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.588373,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 87.1367
+        },
+        {
+          "token": "bec10cb7c4985dbe",
+          "log_name": "2021.08.24.13.20.17_veh-08_00016_00738",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.964975,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 98.9055
+        },
+        {
+          "token": "c3e46ff35ccd5d8e",
+          "log_name": "2021.07.24.00.58.02_veh-12_01831_03390",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "c45571dbd2ce5e92",
+          "log_name": "2021.08.24.19.30.33_veh-45_01391_01523",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.512749,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.988385,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 84.483
+        },
+        {
+          "token": "c56297c6cebd57b4",
+          "log_name": "2021.07.24.16.48.51_veh-17_02573_03272",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "c63dad53040755fd",
+          "log_name": "2021.07.24.00.12.51_veh-37_02616_03464",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "c89b3a61af8954e9",
+          "log_name": "2021.07.24.22.52.16_veh-35_02350_03214",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.946191,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.940726,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 96.8366
+        },
+        {
+          "token": "caaab29c36ef5bee",
+          "log_name": "2021.06.08.17.25.03_veh-35_00359_00894",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "d02abcb2b018515d",
+          "log_name": "2021.06.08.14.57.07_veh-47_01556_01964",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.990599,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.990908,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.4789
+        },
+        {
+          "token": "d506fe99e97c5950",
+          "log_name": "2021.07.24.16.41.10_veh-12_00231_01246",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.669995,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 89.6873
+        },
+        {
+          "token": "d77157608aad5340",
+          "log_name": "2021.06.07.13.53.57_veh-35_03332_03909",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "dbbd1fdecb775d9d",
+          "log_name": "2021.10.05.07.31.14_veh-53_00093_00366",
+          "scenario_type": "changing_lane",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.237458,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 76.1706
+        },
+        {
+          "token": "dce0f77630e05c67",
+          "log_name": "2021.07.24.20.58.00_veh-35_00016_00776",
+          "scenario_type": "traversing_pickup_dropoff",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 0.989552,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.7388
+        },
+        {
+          "token": "df3209418f485407",
+          "log_name": "2021.06.08.17.25.03_veh-35_01953_02306",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.326108,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 0.0
+          },
+          "score": 66.4409
+        },
+        {
+          "token": "e214555df62554bd",
+          "log_name": "2021.07.24.22.58.17_veh-37_00207_03083",
+          "scenario_type": "stationary_in_traffic",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "e3456b82bcf8583b",
+          "log_name": "2021.07.24.03.01.39_veh-47_00005_00893",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.464527,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 83.2665
+        },
+        {
+          "token": "e34c9ed042405fe4",
+          "log_name": "2021.07.24.18.06.35_veh-35_00016_03642",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.1751,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "eaadad7dbcf05511",
+          "log_name": "2021.07.24.22.58.17_veh-37_03094_05238",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        },
+        {
+          "token": "eac481b592f35bbc",
+          "log_name": "2021.07.24.23.59.52_veh-12_04767_05924",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.823104,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 94.472
+        },
+        {
+          "token": "ecdd80b34a8f57a1",
+          "log_name": "2021.06.07.11.59.52_veh-35_00095_00555",
+          "scenario_type": "high_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.66699,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 89.5934
+        },
+        {
+          "token": "edeab17e9e495644",
+          "log_name": "2021.09.13.13.21.28_veh-39_01713_01950",
+          "scenario_type": "high_lateral_acceleration",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.508236,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 84.6324
+        },
+        {
+          "token": "efd37715c9165bee",
+          "log_name": "2021.09.23.01.59.54_veh-51_00029_00499",
+          "scenario_type": "starting_left_turn",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.361872,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 80.0585
+        },
+        {
+          "token": "f013b7d5cc4b5640",
+          "log_name": "2021.07.24.16.48.51_veh-17_00177_02552",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.265564,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 77.0489
+        },
+        {
+          "token": "f043838992745ad4",
+          "log_name": "2021.06.07.12.54.00_veh-35_00267_00880",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 0.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.171631,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "f199f564fa885384",
+          "log_name": "2021.07.24.20.02.23_veh-47_00005_00767",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "f45001858b8e5422",
+          "log_name": "2021.07.24.23.59.52_veh-12_06259_07141",
+          "scenario_type": "low_magnitude_speed",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.691021,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 90.3444
+        },
+        {
+          "token": "f47d8b7828245583",
+          "log_name": "2021.07.24.20.58.00_veh-35_00016_00776",
+          "scenario_type": "starting_straight_traffic_light_intersection_traversal",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.992647,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 99.7702
+        },
+        {
+          "token": "f545b79ff3d553a0",
+          "log_name": "2021.07.24.16.07.03_veh-35_03033_05899",
+          "scenario_type": "waiting_for_pedestrian_to_cross",
+          "gates": {
+            "no_ego_at_fault_collisions": 0.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 0.78529,
+            "time_to_collision_within_bound": 0.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "token": "ff87f53ee3b85930",
+          "log_name": "2021.07.24.16.51.13_veh-26_01887_04395",
+          "scenario_type": "stopping_with_lead",
+          "gates": {
+            "no_ego_at_fault_collisions": 1.0,
+            "drivable_area_compliance": 1.0,
+            "ego_is_making_progress": 1.0,
+            "driving_direction_compliance": 1.0
+          },
+          "weighted": {
+            "ego_progress_along_expert_route": 1.0,
+            "time_to_collision_within_bound": 1.0,
+            "speed_limit_compliance": 1.0,
+            "ego_is_comfortable": 1.0
+          },
+          "score": 100.0
+        }
+      ],
+      "sampling": {
+        "seed": 20260920,
+        "method": "Full set: 1118 scenarios \u2192 stratified by scenario_type, proportional, min 1 per type \u2192 single random draw of 100 scenarios for evaluation (seed 20260920)"
+      }
+    }
+  }
+}

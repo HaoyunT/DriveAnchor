@@ -1,0 +1,780 @@
+{
+  "files": [
+    {
+      "path": "NOTICE.md",
+      "bytes": 574,
+      "sha256": "6d947a19e4752209c49406992bf020969c05e66a89be7ca03a44b7079e659c02"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4009,
+      "sha256": "e7135d3ba7e9713b33aac0e7063e76a35d18373dd84a0eebd5b681a78a375276"
+    },
+    {
+      "path": "assets/vocabulary/nuplan_vocabulary_3000.png",
+      "bytes": 942243,
+      "sha256": "d3b6c0dd956b22ad32929379adc27570fb7b4a649b613418cb5453ecfa509090"
+    },
+    {
+      "path": "assets/vocabulary/summary.json",
+      "bytes": 502,
+      "sha256": "b3c57f4431480a0cae3356ab5b11e66cd7bb9023649c64d50526cd3e365e252e"
+    },
+    {
+      "path": "code/dependencies/root_002/braking.py",
+      "bytes": 3175,
+      "sha256": "f6b404ae50514926431eef9062e12aba70187a4c2b624be522c2a6ae696b9b37"
+    },
+    {
+      "path": "code/dependencies/root_002/geometry.py",
+      "bytes": 8850,
+      "sha256": "17d2bd7abf8f7d5042597ed3bc9c6910b48e3a752a5b3a9a422844de6333d71c"
+    },
+    {
+      "path": "code/dependencies/root_002/repair_planner.py",
+      "bytes": 8548,
+      "sha256": "ab846e1710a9b9ab4a1629a3b82aa7c038bd1dc49a12b8aa07b9ebdeea745def"
+    },
+    {
+      "path": "code/dependencies/root_003/cached_planner.py",
+      "bytes": 5455,
+      "sha256": "a606608c55794ca32f9a245f20674ecd91f2d4f9dcf5675b1b3caedf9bb2dd33"
+    },
+    {
+      "path": "code/dependencies/root_004/common_utils.py",
+      "bytes": 23238,
+      "sha256": "0305a0e9e57f87de2b7c9a3ee6a4e561fbef7f3774a4110585fafdd6408dcaf2"
+    },
+    {
+      "path": "code/dependencies/root_004/obs_adapter.py",
+      "bytes": 18973,
+      "sha256": "bd2979b59bddb4ba825fcb93369b53a0afb209e7a1c90ff298287ac77dd638f5"
+    },
+    {
+      "path": "code/dependencies/root_004/prediction_modules.py",
+      "bytes": 8609,
+      "sha256": "b8097c46d60fe4a959a171e3d0e83bf359f475b2747f8af4b35358b48e6028ba"
+    },
+    {
+      "path": "code/dependencies/root_004/scenario_tree_prediction.py",
+      "bytes": 6518,
+      "sha256": "7fb579ee4de7f0ab3be22be05ad6441fac434ed675a8dca1a57a359a57096375"
+    },
+    {
+      "path": "code/dependencies/root_006/driveanchor_planner.py",
+      "bytes": 13536,
+      "sha256": "78b036bd670e6013f7b458484244e53b580f2dd8030a3d2e082fc7439d021991"
+    },
+    {
+      "path": "code/dependencies/root_006/selection.py",
+      "bytes": 2971,
+      "sha256": "60fffe5b17e902caa61d53d83d72ac1add7de88c53bcdee79e113311b9b6f235"
+    },
+    {
+      "path": "code/dependencies/root_007/fast_planner.py",
+      "bytes": 862,
+      "sha256": "9ebb6ae890cab3191c8539bdc9dc0ff3f4588e1e45aa656f091a734f6f31eec4"
+    },
+    {
+      "path": "code/dependencies/root_007/fast_selector.py",
+      "bytes": 5411,
+      "sha256": "fbaa1f57bca198ad0bd6c5fbd6d7326ba633bbbd5494dea3108a5f1c7a9332a2"
+    },
+    {
+      "path": "code/dependencies/root_008/full_pool_selector.py",
+      "bytes": 2616,
+      "sha256": "dbd841098ebd0f60ad8d141612b2a750a91afd066d8cc270f3666fd08c031884"
+    },
+    {
+      "path": "code/dependencies/root_008/source_binding.py",
+      "bytes": 2576,
+      "sha256": "4dbc9521cf553ee5f673f097252194b2f8b42d6086234114f40a4951c14ce8c6"
+    },
+    {
+      "path": "code/dependencies/root_009/native_geometry.py",
+      "bytes": 5547,
+      "sha256": "0604abe32afb486f5e17cffa824c2450d0a60abddb1a2ee8cc7b85c1145ee650"
+    },
+    {
+      "path": "code/dependencies/root_010/prediction_parallel.py",
+      "bytes": 5976,
+      "sha256": "077c3ff3693b4f7d96baf129b99debeb7c5a305769e37ffc1f7ae39b43730d62"
+    },
+    {
+      "path": "code/dependencies/root_010/predictor_layers.py",
+      "bytes": 3489,
+      "sha256": "28349efaa6b75d536174c01610d25edce6455918177f532aec19e1824882bf1b"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/branch_modules.py",
+      "bytes": 71862,
+      "sha256": "2598e49d7e677e8b4e4c646bd4e27514e6dc8605c7ce62f6804d4b0319bd5b7c"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/compat.py",
+      "bytes": 818,
+      "sha256": "bf9b8113927408b9c65ffd3712396b6ce88b1c40c30f765c9dd5a5abbcb19d51"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/ef.py",
+      "bytes": 4114,
+      "sha256": "20a52f5789e6a4603b6f702dbb43bc078b525bfc29f9ea6f38b1a55032a49f50"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/ef_branch.py",
+      "bytes": 4496,
+      "sha256": "be16123313a11ac8647d9f62cce388f562350e0fa4003f58258ff31e12a6243d"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/ef_delta.py",
+      "bytes": 11434,
+      "sha256": "c798423633ee9f1db5745a5011c28180a526d99c0d2d2100c81edd48d7dcef2c"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/ef_geometry.py",
+      "bytes": 5896,
+      "sha256": "d028f415bb8b6a60b5b6af09b3329dae07ce7f3376b345f1c6c60f4cc8fae98b"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/ef_scaled.py",
+      "bytes": 2336,
+      "sha256": "82be1ba517c9cf2197c8b8ee459be7756f3326072f163134134fb49d78e27d48"
+    },
+    {
+      "path": "code/dependencies/root_011/rebase/model.py",
+      "bytes": 9720,
+      "sha256": "ace1570e0c29261e17d10159c4dd0595fb34a2c9cdfb7643d6c3f2c0d4725f51"
+    },
+    {
+      "path": "code/evaluation_sources/nuplan_streaming.py",
+      "bytes": 9493,
+      "sha256": "debe0b136c74eaa029a9654a9e46b70263b1e4ba73c3fa78b4025d838ea442e7"
+    },
+    {
+      "path": "code/evaluation_sources/runner.py",
+      "bytes": 25957,
+      "sha256": "dec0ab8fa11c51046b5285377df23c9cde2fb8df8b35b8437c05c3dd3b28dda0"
+    },
+    {
+      "path": "code/model/rebase/branch_modules.py",
+      "bytes": 71862,
+      "sha256": "2598e49d7e677e8b4e4c646bd4e27514e6dc8605c7ce62f6804d4b0319bd5b7c"
+    },
+    {
+      "path": "code/model/rebase/compat.py",
+      "bytes": 818,
+      "sha256": "bf9b8113927408b9c65ffd3712396b6ce88b1c40c30f765c9dd5a5abbcb19d51"
+    },
+    {
+      "path": "code/model/rebase/ef.py",
+      "bytes": 4114,
+      "sha256": "20a52f5789e6a4603b6f702dbb43bc078b525bfc29f9ea6f38b1a55032a49f50"
+    },
+    {
+      "path": "code/model/rebase/ef_branch.py",
+      "bytes": 4496,
+      "sha256": "be16123313a11ac8647d9f62cce388f562350e0fa4003f58258ff31e12a6243d"
+    },
+    {
+      "path": "code/model/rebase/ef_delta.py",
+      "bytes": 11434,
+      "sha256": "c798423633ee9f1db5745a5011c28180a526d99c0d2d2100c81edd48d7dcef2c"
+    },
+    {
+      "path": "code/model/rebase/ef_geometry.py",
+      "bytes": 5896,
+      "sha256": "d028f415bb8b6a60b5b6af09b3329dae07ce7f3376b345f1c6c60f4cc8fae98b"
+    },
+    {
+      "path": "code/model/rebase/ef_guidance.py",
+      "bytes": 8372,
+      "sha256": "e44a7384c36afbe3f1776358b9abffe2464d0669ab4b650335812f1433ec1384"
+    },
+    {
+      "path": "code/model/rebase/ef_scaled.py",
+      "bytes": 2336,
+      "sha256": "82be1ba517c9cf2197c8b8ee459be7756f3326072f163134134fb49d78e27d48"
+    },
+    {
+      "path": "code/model/rebase/fm_refine.py",
+      "bytes": 2883,
+      "sha256": "f2ec1f453029e1c7855e62d48f30b949f36791bc00882484ac946994d7bb0d9c"
+    },
+    {
+      "path": "code/model/rebase/legacy_objectives.py",
+      "bytes": 2208,
+      "sha256": "4048e8979d166c9647f2f32b53739a591698e46ad437ac82cf87a5939bc4d0f5"
+    },
+    {
+      "path": "code/model/rebase/model.py",
+      "bytes": 9720,
+      "sha256": "ace1570e0c29261e17d10159c4dd0595fb34a2c9cdfb7643d6c3f2c0d4725f51"
+    },
+    {
+      "path": "code/model/rebase/stages.py",
+      "bytes": 3138,
+      "sha256": "d2d4afce4323e47ab7a7b1699460858ce05a5d4158344dc9494833aa7c5cef32"
+    },
+    {
+      "path": "code/runtime/accelerated_predictor.py",
+      "bytes": 3673,
+      "sha256": "9638f2a7697b71cc8ce7334f1c9790b50768aa15abc05ba51789c8e86d2423de"
+    },
+    {
+      "path": "code/runtime/agent_history_v1/core.py",
+      "bytes": 17834,
+      "sha256": "428abfbf49a19f0945902eba16e0a7013c7c7f34f986466eec5e412645fbb894"
+    },
+    {
+      "path": "code/runtime/agent_history_v1/integration.py",
+      "bytes": 8572,
+      "sha256": "270a5174c52ecf8e593b1551faecfa7ec0855e8fd44909f1a004ed6ba3cfe9e4"
+    },
+    {
+      "path": "code/runtime/agent_history_v1/validate_agent_history.py",
+      "bytes": 21150,
+      "sha256": "bca99e7f687edf26a13d0b0ad8aa3315ed25a9ea466f318180b810bbd949b186"
+    },
+    {
+      "path": "code/runtime/base_predictor.py",
+      "bytes": 5958,
+      "sha256": "7a631ca2cdad38304332302a1a0a7bf74281773b502b8536487a54e388f21fbb"
+    },
+    {
+      "path": "code/runtime/benchmark.py",
+      "bytes": 5429,
+      "sha256": "b010a631453db2af494422cdc22ff999c73992ab729c8c5d2bc4d7cf3ecaf2c0"
+    },
+    {
+      "path": "code/runtime/benchmark_batch500.py",
+      "bytes": 5438,
+      "sha256": "aa09832c47a6bfd3b911fcbf378fa9bbcbc6c766272c8ac9c60d5dd408d932de"
+    },
+    {
+      "path": "code/runtime/benchmark_cached.py",
+      "bytes": 5436,
+      "sha256": "b82a950fce7d1265605783b9a71f28495c3d458e1188dcc1a55fab416d145cdd"
+    },
+    {
+      "path": "code/runtime/benchmark_indexed.py",
+      "bytes": 5437,
+      "sha256": "128c5fe8df4bd4ac15a1d803d35a909afb56ed4fa811f2cc205c90a754ad36ab"
+    },
+    {
+      "path": "code/runtime/benchmark_indexed_v2.py",
+      "bytes": 5437,
+      "sha256": "9a4bb131f112a62be04b985dfbb93b450d98530429a17f9159a221ea15900ad6"
+    },
+    {
+      "path": "code/runtime/benchmark_v3.py",
+      "bytes": 5439,
+      "sha256": "17331d742e7b3d316c11a8c113f5bd842f7486e0fb9a621730388b918621ff75"
+    },
+    {
+      "path": "code/runtime/brake_profiles.py",
+      "bytes": 463,
+      "sha256": "9f2a0338d0d4e96672a8fba74d583504b743426f61a92ebdd559e70954fb683b"
+    },
+    {
+      "path": "code/runtime/brake_profiles_reference.py",
+      "bytes": 1334,
+      "sha256": "cc51eb7cbb8f6d2b065a870a009a1f3c530464b36932b74dd82854b30f5c79b2"
+    },
+    {
+      "path": "code/runtime/braking.py",
+      "bytes": 3175,
+      "sha256": "f6b404ae50514926431eef9062e12aba70187a4c2b624be522c2a6ae696b9b37"
+    },
+    {
+      "path": "code/runtime/candidate_costs_gpu.py",
+      "bytes": 3133,
+      "sha256": "6477563f5abefb2523c9af9d8300efa08e55109d7ea4f2a9d3c7e9f938e92103"
+    },
+    {
+      "path": "code/runtime/choose_dtpp.py",
+      "bytes": 5756,
+      "sha256": "5cb71b8516ccccb3684414ef9cb936f9c9bbf903f466bfdb63791abc0e161b29"
+    },
+    {
+      "path": "code/runtime/choose_gpu.py",
+      "bytes": 4648,
+      "sha256": "3e8f61ad0a68aabc1e08cceefaa57397df310211abf29bdb4b7144625f82a411"
+    },
+    {
+      "path": "code/runtime/clearance_profiles.py",
+      "bytes": 2515,
+      "sha256": "c84a1925c745fddaeed9de59429528122e5e11cdcde7a6b3c6e9ff947a3f5d0b"
+    },
+    {
+      "path": "code/runtime/collision_gpu.py",
+      "bytes": 2047,
+      "sha256": "46a74360072602e604b3c8532ffd0c6e3b16ce456d1c0d192a649d19a92c6000"
+    },
+    {
+      "path": "code/runtime/combined_install.py",
+      "bytes": 620,
+      "sha256": "4a9a14e63a27ef8785d7a7b4b4dba7d7e625df1477857be32c6823d6f2997359"
+    },
+    {
+      "path": "code/runtime/comfort_progress.py",
+      "bytes": 7207,
+      "sha256": "736c747f3115d2c56a95898ad101e665bb1e12a9da89484063a52cb5d9bd89f5"
+    },
+    {
+      "path": "code/runtime/corridor_union.py",
+      "bytes": 678,
+      "sha256": "5a3093f1aee25feaf64e8b02badca69dd32cd2aab4ce2a0887f1dfbb21027465"
+    },
+    {
+      "path": "code/runtime/cpu_parity.py",
+      "bytes": 8080,
+      "sha256": "8f28afdc06c290e0b3bfc791126e6076176ccaf1f57650b6e37d491b0828d8dd"
+    },
+    {
+      "path": "code/runtime/cpu_timing.py",
+      "bytes": 7246,
+      "sha256": "37f07352c510cbf3aca8a36cac8a264ddeb554aefcd9f0d1d52a9164398b7c38"
+    },
+    {
+      "path": "code/runtime/curvature_check.py",
+      "bytes": 1281,
+      "sha256": "6456cb4b4471b6ad5ed88eb8dc0c9c4a808c0a3e0844d8bd2db6e45f4bcecdd7"
+    },
+    {
+      "path": "code/runtime/cv_temporal_clearance.py",
+      "bytes": 2458,
+      "sha256": "3e062de3be57980002a0933169717b1ee7fe89740987224616ff4f5125009a26"
+    },
+    {
+      "path": "code/runtime/device_costmap.py",
+      "bytes": 10463,
+      "sha256": "0082e4e086db1cb74e048123c68cbf8aa403e9eacce4d1d93b26faf8048fccc4"
+    },
+    {
+      "path": "code/runtime/device_features.py",
+      "bytes": 3904,
+      "sha256": "46346d15bf5ff72875322741944d7fa14c0eb330e643c3a6ca1452c32e36bc8d"
+    },
+    {
+      "path": "code/runtime/device_map.py",
+      "bytes": 12650,
+      "sha256": "28362e309cc264b34f75127c876aeb206e79b8054bb35c9135b2711164bc910d"
+    },
+    {
+      "path": "code/runtime/device_map_triton.py",
+      "bytes": 12389,
+      "sha256": "086a6f85ff7d958add2323246c8dbf0bdfe6dd0821c5cdbc4bc81ef2f7ab2a8a"
+    },
+    {
+      "path": "code/runtime/device_obstacles.py",
+      "bytes": 14272,
+      "sha256": "f642df885d535d4f8f954cdb48d04a274e1a898ebc7ddb9df0b5d123c096a135"
+    },
+    {
+      "path": "code/runtime/direction_guard.py",
+      "bytes": 1840,
+      "sha256": "e572da73322abd88166dd20a6c9720e890755ac4713187cf615f0053676972b8"
+    },
+    {
+      "path": "code/runtime/dp_native_kernel.py",
+      "bytes": 686,
+      "sha256": "65680be8ff75cccaf0c45ee27ab2810b199678d004ac358907286f179639a320"
+    },
+    {
+      "path": "code/runtime/dtpp_features/__init__.py",
+      "bytes": 188,
+      "sha256": "08c9ec6c7cab7d6233d679bc66cf8422aaf74e4e6a634ba5e0320f5b498ac3d2"
+    },
+    {
+      "path": "code/runtime/dtpp_features/dtpp_prepare.py",
+      "bytes": 15046,
+      "sha256": "3d4b4598582b776cb969978078654ed042b30b3f4f855f8ceb78a89a2b9ffc1d"
+    },
+    {
+      "path": "code/runtime/dtpp_features/validate_dtpp_prepare.py",
+      "bytes": 17414,
+      "sha256": "192dd6b9782c07f4635b8964841d2885ef155123f67ab1bff90c05e355327f89"
+    },
+    {
+      "path": "code/runtime/fast_features.py",
+      "bytes": 3739,
+      "sha256": "57b5763d9b013217f8d4fc61d93bb99305d17262ad26e0c9ba1e884c12a35425"
+    },
+    {
+      "path": "code/runtime/feature_parity.py",
+      "bytes": 5793,
+      "sha256": "55d6c4776325e5a3e8017462749cadc2aafa76665f1decba6010ac37eb67a8f2"
+    },
+    {
+      "path": "code/runtime/final_speed_cap.py",
+      "bytes": 4678,
+      "sha256": "3fb51580def6b1a3e241da071cafc9b357baea60e5e6528912444e346081f138"
+    },
+    {
+      "path": "code/runtime/fm2_planner.py",
+      "bytes": 60221,
+      "sha256": "cd5e39967b146f1cf4e4617dfeef00c63f165a12c56befc4854e322940682ff1"
+    },
+    {
+      "path": "code/runtime/frame_checks.py",
+      "bytes": 6284,
+      "sha256": "99bdfcebba427e019f44328f5d42db671762ba43278eb5e21d75bfcc834c5731"
+    },
+    {
+      "path": "code/runtime/frame_provider.py",
+      "bytes": 2442,
+      "sha256": "946493f9123ab0e735d10f40b6b9fde69e7d8b60454fcbf367e3b13a52395e63"
+    },
+    {
+      "path": "code/runtime/full_pool_planner.py",
+      "bytes": 4807,
+      "sha256": "83c47814d6d667fe2b7a1995d06d1f7290eed4d4146230b93c4466b6d20dbb4e"
+    },
+    {
+      "path": "code/runtime/geometry.py",
+      "bytes": 8850,
+      "sha256": "17d2bd7abf8f7d5042597ed3bc9c6910b48e3a752a5b3a9a422844de6333d71c"
+    },
+    {
+      "path": "code/runtime/geometry_horizon.py",
+      "bytes": 1994,
+      "sha256": "090e45576f102d4c371f384d6b3c91a0653e5c8e11fb939153b2ceddb710b059"
+    },
+    {
+      "path": "code/runtime/horizon.py",
+      "bytes": 2738,
+      "sha256": "f473132b71a9a688bb0ba5c83094500ad361a0ddaa9161bdc397087e235ebab7"
+    },
+    {
+      "path": "code/runtime/idm_fallback.py",
+      "bytes": 5835,
+      "sha256": "2e3d757a16e29abdb5d815255ce6663241ba3b2c2056dcea493ccbbd361a3ef9"
+    },
+    {
+      "path": "code/runtime/indexed_features.py",
+      "bytes": 5303,
+      "sha256": "f9dfc50876bd47b1a7db42a32dd152c677744bb45e8da29339d3f10fc4db28b6"
+    },
+    {
+      "path": "code/runtime/map_speed_limit.py",
+      "bytes": 1309,
+      "sha256": "9f35c069acd55165aab3122f63e16db22e5200ae2e986171769177f579938c13"
+    },
+    {
+      "path": "code/runtime/metrics.py",
+      "bytes": 5141,
+      "sha256": "40cfcebeded091834c246ab0a054f1c8381ba2c60c7f246853030914ee3e3672"
+    },
+    {
+      "path": "code/runtime/normal_install.py",
+      "bytes": 347,
+      "sha256": "9022df27af5e7147475a89b1bd5471600bfe08d60264e7d0448bf55ffd4fca9e"
+    },
+    {
+      "path": "code/runtime/observed_braking.py",
+      "bytes": 1610,
+      "sha256": "e08d5823ab66345b59a51e382dca4a4bdc96919497697be7d6b9f7ff66310492"
+    },
+    {
+      "path": "code/runtime/pdm_model_selector.py",
+      "bytes": 7703,
+      "sha256": "d663384111fabd6df7b1d351aea2afa18cafb802ae4565c3555ed66841e8ea11"
+    },
+    {
+      "path": "code/runtime/planner.py",
+      "bytes": 1411,
+      "sha256": "2f69004e71e6c9f60657e26e6a09661a11ebd7ece3c9c07c9e3844ed3a4cc824"
+    },
+    {
+      "path": "code/runtime/planner_features/__init__.py",
+      "bytes": 141,
+      "sha256": "3d7387455496c57870b54fd71d82d83d2abfc6429974c67065245efea72cd9d6"
+    },
+    {
+      "path": "code/runtime/planner_features/batched_features.py",
+      "bytes": 17622,
+      "sha256": "8a6aee55ccee3c5282a38c158036aea8a60a73876b4d2095cf29fa2a5f523a52"
+    },
+    {
+      "path": "code/runtime/planner_features/validate_features.py",
+      "bytes": 13996,
+      "sha256": "67b2ba761457aa3825b029260b6a9e9fdb8cc1c4dbe6cf486e0cb890c2165318"
+    },
+    {
+      "path": "code/runtime/point_road.py",
+      "bytes": 728,
+      "sha256": "d6aa2d88ba84c2c01311ae22f87912537ef803af7ffd578468e90f7d18629e82"
+    },
+    {
+      "path": "code/runtime/predicted_obstacles.py",
+      "bytes": 2069,
+      "sha256": "c08e0e4fe488f0b50afd3329d51429560c8fb51f68a18d8e7d73dfec37a22a8e"
+    },
+    {
+      "path": "code/runtime/prediction8.py",
+      "bytes": 2683,
+      "sha256": "af4067a1f73fe4a84609b1b0152b5abd374e23151af7695355cf0eed6b0d61c4"
+    },
+    {
+      "path": "code/runtime/predictor.py",
+      "bytes": 5958,
+      "sha256": "7a631ca2cdad38304332302a1a0a7bf74281773b502b8536487a54e388f21fbb"
+    },
+    {
+      "path": "code/runtime/profile_eval.py",
+      "bytes": 12980,
+      "sha256": "26034e3020ac0c7dfa2e156dbc7db51d25ee07d72d73d3f1e2e24cf9dcab8376"
+    },
+    {
+      "path": "code/runtime/progress.py",
+      "bytes": 3050,
+      "sha256": "add4318df4f3c8cbdf3547d173dc821f39089890c0398c17c8545d0dc648a05c"
+    },
+    {
+      "path": "code/runtime/reference_path.py",
+      "bytes": 1140,
+      "sha256": "ebe3173cf9bafb0064331ce1ae75438b817afba885f39477faed2414cfdef3b8"
+    },
+    {
+      "path": "code/runtime/region_paths.py",
+      "bytes": 8502,
+      "sha256": "abf1e52218f609f1ba8732004407ebeef544d4579758ceed818d8f772cb11c4f"
+    },
+    {
+      "path": "code/runtime/repair_planner.py",
+      "bytes": 8548,
+      "sha256": "ab846e1710a9b9ab4a1629a3b82aa7c038bd1dc49a12b8aa07b9ebdeea745def"
+    },
+    {
+      "path": "code/runtime/retime.py",
+      "bytes": 2610,
+      "sha256": "00a92b8e15684f3676d33c26b39d526b384ad09dbba9dd8edf3d1ef61da09125"
+    },
+    {
+      "path": "code/runtime/risk.py",
+      "bytes": 1564,
+      "sha256": "0898dfc9b10030be999223d4b836c97ca628010036fd9a526a82667e43e74309"
+    },
+    {
+      "path": "code/runtime/risk_reduction.py",
+      "bytes": 1094,
+      "sha256": "08b806852e234cdbd2dfab77d691a388a6162e8060130d2e644af558942e8048"
+    },
+    {
+      "path": "code/runtime/route_map.py",
+      "bytes": 2890,
+      "sha256": "6490dfdb0d62277ceee11c953f96d691808f113abd9130f7f301d37662e62ec9"
+    },
+    {
+      "path": "code/runtime/route_sl_dp.py",
+      "bytes": 12503,
+      "sha256": "76905d8818c94afe5c364bbfb18424100078f95286895d4cc3763ea508c21943"
+    },
+    {
+      "path": "code/runtime/run_comparison.py",
+      "bytes": 4016,
+      "sha256": "c7b0ee73673daf5631545024d439e08fe8adc1398edb1b34ba6b72b57e36c935"
+    },
+    {
+      "path": "code/runtime/run_eval.py",
+      "bytes": 15863,
+      "sha256": "9637e5441599acfd7d31781d26c1b63c6f004b540972887b1c08ed4258fb1187"
+    },
+    {
+      "path": "code/runtime/run_fixed100.py",
+      "bytes": 3366,
+      "sha256": "e219f7ec70c85bb565c897170c9586b5f3e50a6de36b871740268575b4e03e9a"
+    },
+    {
+      "path": "code/runtime/score_head_bridge.py",
+      "bytes": 1684,
+      "sha256": "89ab69b01d17795a97661b453f56da2de2c72becf8ec453d01da0ced9f1ac742"
+    },
+    {
+      "path": "code/runtime/selection.py",
+      "bytes": 2971,
+      "sha256": "60fffe5b17e902caa61d53d83d72ac1add7de88c53bcdee79e113311b9b6f235"
+    },
+    {
+      "path": "code/runtime/selector_tensor.py",
+      "bytes": 2582,
+      "sha256": "7920c1af3184122b1369488027f223aea71e5ac7117a7c51f71186ef3e789152"
+    },
+    {
+      "path": "code/runtime/shared_filter.py",
+      "bytes": 5040,
+      "sha256": "ea59476e2be7219a197409e31e8dba578b42139dbf394d22e09859a7b9431e89"
+    },
+    {
+      "path": "code/runtime/signal_scope.py",
+      "bytes": 620,
+      "sha256": "90ecbbbb69fae936e479c9ec1769804654b4ca55a64a0d4e0a57977e6f2145d6"
+    },
+    {
+      "path": "code/runtime/spatial_index.py",
+      "bytes": 1181,
+      "sha256": "1b386ac87aed7769d021ee0cbb97e67d9a6ce382c2b69802f24e16bffcb9ef97"
+    },
+    {
+      "path": "code/runtime/speed_dp.py",
+      "bytes": 8753,
+      "sha256": "89f97dd94a87843e6dab3fe29a3465d3905d42725db40d4638587f23218c297b"
+    },
+    {
+      "path": "code/runtime/static_geometry.py",
+      "bytes": 876,
+      "sha256": "eb47ce1cd4ab13e44d2169c7335367207045bc5c3a453b237c5bb9745578d764"
+    },
+    {
+      "path": "code/runtime/static_speed_envelope.py",
+      "bytes": 838,
+      "sha256": "7c8a66ab954ebb06c9a22ccb1d0128f8e3eed00eae9069707c957d3ed16c52ef"
+    },
+    {
+      "path": "code/runtime/static_track_history.py",
+      "bytes": 1661,
+      "sha256": "98465abc3b54d23d1daed2a6af1695a7452f5df83643d78715bbbfff98bc5895"
+    },
+    {
+      "path": "code/runtime/static_ttc_sat.py",
+      "bytes": 2150,
+      "sha256": "e9e8d9a1d8fb5133ae76fee0b7e3407bf642fa15fa031631a9074980cff00256"
+    },
+    {
+      "path": "code/runtime/stopped_lead_wall.py",
+      "bytes": 2338,
+      "sha256": "a9b8c4b76c66225898954624f1d7f839b5049e14b7bcc8df5eeee981f7d1225c"
+    },
+    {
+      "path": "code/runtime/tensor_map.py",
+      "bytes": 4747,
+      "sha256": "11de93ec1dba14689c3993b74886b0be9bceedf5f79bb359e640bab2fdd270f5"
+    },
+    {
+      "path": "code/runtime/three_circle_boundary.py",
+      "bytes": 2044,
+      "sha256": "5e5efaad8fc11d3d98e4c2b3d56289a359737410e90aade875f0fc085827db0c"
+    },
+    {
+      "path": "code/runtime/time_reference.py",
+      "bytes": 2567,
+      "sha256": "26a2df7219083bcee9e32ab57547ef0b3d357af55700c3b00101052b5b3d6eaf"
+    },
+    {
+      "path": "code/runtime/tracker_control.py",
+      "bytes": 1192,
+      "sha256": "b0a57ced98f420872c21a9205f2e5c7e2f40cd9359119fdabaafd37381daeccd"
+    },
+    {
+      "path": "code/runtime/tracker_forecast.py",
+      "bytes": 1483,
+      "sha256": "b4c8b015b67840e4179f821a5c85832dba8d662d2e6800b07f78669cf1024b5d"
+    },
+    {
+      "path": "code/runtime/v5_select.py",
+      "bytes": 6999,
+      "sha256": "c7583a22cc9786348012e3f39cbf322f66250a24abb8b072899c0a9879f64c40"
+    },
+    {
+      "path": "code/runtime/v6_select.py",
+      "bytes": 10127,
+      "sha256": "6e2bdef1b70830f5ad422df22c6624a76817b2eaad0edc30b745ec75a8b081d0"
+    },
+    {
+      "path": "code/runtime/validate_costmap.py",
+      "bytes": 16175,
+      "sha256": "00f38d3cbfc5be8ae476de12285d9e431b41ec69a700283be62a68651528ccd8"
+    },
+    {
+      "path": "code/runtime/validate_direction_cache.py",
+      "bytes": 1230,
+      "sha256": "436c9844e2a0ca155b182c4d9a1ac69a144fa3e18a403d2df1bb2392c41023d0"
+    },
+    {
+      "path": "code/runtime/validate_map.py",
+      "bytes": 11690,
+      "sha256": "111619b53a0e8849e2eeb32215ba288b6a8e62f29c2d00779d0a6e19f7dc4761"
+    },
+    {
+      "path": "code/runtime/validate_triton.py",
+      "bytes": 6214,
+      "sha256": "121323b66e14810e79f32143315444935294b95ff0089cfbebbf3506d04acdd9"
+    },
+    {
+      "path": "code/runtime/wait_resume.py",
+      "bytes": 3019,
+      "sha256": "707baada29e8e21e7290bb4fda64ced2de2d1396bd7d0e4624ac366d7406274b"
+    },
+    {
+      "path": "code/runtime/xy_path_search.py",
+      "bytes": 2921,
+      "sha256": "032d7878bddf69783f8501f4b38d867b8c0dc7f08bf92299bdb296a00245f8f8"
+    },
+    {
+      "path": "code/scorehead/patch_sc_fix.py",
+      "bytes": 882,
+      "sha256": "64e50b31a4444c312d42806d9f00d8738fc75544d6d7761113fec9dbb338a066"
+    },
+    {
+      "path": "code/scorehead/patch_scorehead.py",
+      "bytes": 1196,
+      "sha256": "cb4f0de9633a7b6936e1ccf62e023e150f8bf8272f671a7514016ed496b4e33e"
+    },
+    {
+      "path": "code/scorehead/patch_shortcircuit2.py",
+      "bytes": 2567,
+      "sha256": "33e9c54265dbf056b496803fca171b0dc6cadc31512b59eed3902e9e5bfeab2d"
+    },
+    {
+      "path": "code/scorehead/score_head_bridge.py",
+      "bytes": 1684,
+      "sha256": "89ab69b01d17795a97661b453f56da2de2c72becf8ec453d01da0ced9f1ac742"
+    },
+    {
+      "path": "code/scorehead/train_ablation.py",
+      "bytes": 12475,
+      "sha256": "d814e3fca70b3e1e639b8de064edad1b3e3ba8ac98402f7082edab7198bfaffe"
+    },
+    {
+      "path": "code/scorehead/train_v2.py",
+      "bytes": 8077,
+      "sha256": "f0368b9fb65dfcae70461d1a0ece093a87244e025362897e3ff9016ce4d77121"
+    },
+    {
+      "path": "evaluation/config/cfg/planner/driveanchor_fag.yaml",
+      "bytes": 776,
+      "sha256": "9f41e12a38021f72cbd56cf499c5571c64df8bc6f39bd3ca92729029cc04d691"
+    },
+    {
+      "path": "evaluation/results/test14hard_100case_final.json",
+      "bytes": 129786,
+      "sha256": "2592a5928dadf831ad34e6a6fc21d5b85c5a7b5233b92151a3962c832f0aee3a"
+    },
+    {
+      "path": "evaluation/results/val14_100case_final.json",
+      "bytes": 130166,
+      "sha256": "193d80ac154d3e4ed8e6d866425a0159473f88920e590a7bb8be380d3e342f56"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 721,
+      "sha256": "1208d9d11898becedfb6307d8bd08ae5aaea9c1378e507d3c931f5fb1fde44b0"
+    },
+    {
+      "path": "weights/fag_best.pt.lfs-pointer.txt",
+      "bytes": 133,
+      "sha256": "c2e1350a0c441772a99efcb34d7088a2d4d15a1ed24f2a4b08026c74bee187fe"
+    },
+    {
+      "path": "weights/model_08000.pt.lfs-pointer.txt",
+      "bytes": 134,
+      "sha256": "d5e06ea76fd4f28637a4901902310afa1296a860f2aa2576c1d9eb5c6e9875b2"
+    },
+    {
+      "path": "\u5982\u4f55\u66f4\u65b0\u533f\u540d\u4ed3\u5e93.md",
+      "bytes": 1274,
+      "sha256": "2fa0a32a7045a8793ebb60580abe5a846592f3a94bef5ba289d05b1b2aba842c"
+    }
+  ],
+  "scope": "Anonymous DriveAnchor evaluation and implementation release: configurations, result records, source snapshots, score-head training references, checkpoint identifiers, vocabulary visualization."
+}

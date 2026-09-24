@@ -1,0 +1,17 @@
+# DriveAnchor FM2 + FAG score-head top-1, wired into nuPlan's own simulation
+# harness so the number lands on the same protocol as the published table.
+#
+# FM2Top250Planner already implements AbstractPlanner (name / observation_type /
+# initialize / compute_planner_trajectory) through DriveAnchorPlanner, so it
+# needs no adapter.  The score-head path is selected by the same two environment
+# variables run_top1_full100.sh used -- DRIVEANCHOR_PREFILTER=scorehead and
+# DRIVEANCHOR_VNORM_TOPK=1 -- because the patched prefilter reads them directly.
+driveanchor_fag:
+  _target_: fm2_planner.FM2Top250Planner
+  _convert_: 'all'
+  checkpoint: ${DRIVEANCHOR_CHECKPOINT:-/path/to/model_08000.pt}
+  device: cuda
+  use_ef: true
+  fm_steps: 2
+  chunk_size: 500
+  enable_guard: false
