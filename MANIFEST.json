@@ -769,11 +769,6 @@
       "path": "weights/model_08000.pt.lfs-pointer.txt",
       "bytes": 134,
       "sha256": "d5e06ea76fd4f28637a4901902310afa1296a860f2aa2576c1d9eb5c6e9875b2"
-    },
-    {
-      "path": "\u5982\u4f55\u66f4\u65b0\u533f\u540d\u4ed3\u5e93.md",
-      "bytes": 1274,
-      "sha256": "2fa0a32a7045a8793ebb60580abe5a846592f3a94bef5ba289d05b1b2aba842c"
     }
   ],
   "scope": "Anonymous DriveAnchor evaluation and implementation release: configurations, result records, source snapshots, score-head training references, checkpoint identifiers, vocabulary visualization."
